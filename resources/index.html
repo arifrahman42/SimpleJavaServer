@@ -1,0 +1,29 @@
+<!-- TODO 9: Membuat berkas HTML untuk menampilkan informasi sebagai halaman web. -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peladen Java Sederhana</title>
+    <!-- TODO 12: Menyetel fon Calibri sebagai fon bawaan.  -->
+    <style>
+        @font-face {
+            font-family: 'Calibri';
+            src: url('fonts/calibri.ttf') format('truetype'),
+                url('fonts/calibri.woff') format('woff'),
+                url('fonts/calibri.woff2') format('woff2');
+            font-weight: normal;
+        }
+
+        body {
+            font-family: 'Calibri';
+        }
+    </style>
+</head>
+<body>
+    <p>{{name}}</p>
+    <p>{{date}}</p>
+    <p>{{percentage}} menuju tahun {{nextYear}}</p>
+    <p>Suhu udara di {{city}} saat ini adalah {{temperature}}°C. Terakhir dimutakhirkan pada pukul {{formattedWIBTime}}</p>
+</body>
+</html>
