@@ -99,7 +99,7 @@ public class HelloWorldServer {
                     response.append(line);
                 }
             } catch (Exception e) {
-                System.err.println("Error fetching data: " + e.getMessage());
+                System.err.println("Terjadi Kesalahan. Pesan Galat: " + e.getMessage());
                 return "{\"current\":{\"temperature_2m\":0,\"time\":\"1970-01-01T00:00\"},\"current_units\":{\"temperature_2m\":\"°C\"}}";
             }
             return response.toString();
