@@ -11,7 +11,7 @@ Jumat, 29 November 2024 07:03:15
 Suhu udara di Medan saat ini adalah 23.4°C. Terakhir dimutakhirkan pada pukul 07:00 WIB
 ```
 
-Program ini dikembangkan menggunakan [Java JDK versi 23](https://docs.aws.amazon.com/corretto/latest/corretto-23-ug/what-is-corretto-23.html) beserta [IDE Visual Studio Code](https://code.visualstudio.com/).
+Program ini saya kembangkan menggunakan [Java JDK versi 23](https://docs.aws.amazon.com/corretto/latest/corretto-23-ug/what-is-corretto-23.html) beserta [IDE Visual Studio Code](https://code.visualstudio.com/). Program ini saya perkirakan dapat di-compile dan dijalankan dengan minimum [Java JDK versi 11 LTS](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html), namun saya sarankan (per Januari 2025 ini) untuk mulai menggunakan [Java JDK versi 21 LTS](https://docs.aws.amazon.com/corretto/latest/corretto-21-ug/what-is-corretto-21.html) atau yang terbaru [versi 23](https://docs.aws.amazon.com/corretto/latest/corretto-23-ug/what-is-corretto-23.html).
 
 Informasi suhu udara bersumber dari [API Open Meteo](https://api.open-meteo.com/v1/forecast?latitude=3.5833&longitude=98.6667&current=temperature_2m) (Lokasi: Medan, Sumatera Utara, Indonesia; Parameter: Suhu Udara)
 
