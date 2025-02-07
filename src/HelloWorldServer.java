@@ -78,7 +78,7 @@ public class HelloWorldServer {
             os.write(responseBytes);
             os.close();
         } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
+            System.err.println("Terjadi Kesalahan. Pesan Galat: " + e.getMessage());
             e.printStackTrace();
         }
     }
